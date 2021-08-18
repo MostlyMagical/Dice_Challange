@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <main>
+        <h1 id="Title">Dice Game</h1>
+        <h2 id="tableBet">Bet: £0</h2>
+        <h2 id="rules">Score 21 to Win! <br>
+            Roll a 1 and you lose.</h2>
+        <div class="table">
+            <img id="dice" src="Dice-Img/d1.png" class="d1" height="100" width="100">
+        </div>
+        <div id="scoring">
+            <div id="player">
+                <p id="scoreCard">Score:</p>
+                <p id="score">0</p>
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="roll">Roll</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div id= "win_Lose">
+            <h1 id= "wins">Wins: 0</h1>
+            <h1 id= "losses">Losses: 0</h1>
+        </div>
+        <br>
+        <br>
+        <div id="betting">
+            <h2 id="placeYourBets">Place Your Bets!</h2>
+            <button id="bet">Bet</button>
+            <button id="clearBet">Reset</button>
+        </div>
+        <br>
+        <h1 id="money">Money £500</h1>
+        <br>
+    </main>
+    <script src="App.js"></script>
+</body>
+</html>

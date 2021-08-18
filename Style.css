@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/Projects/Dice-Game/Table-Background.jpg);
+    image-resolution: 1080px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+main{
+    background-color: #134611;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 850px;
+    box-shadow: 0 9px 6px -6px #ffffff;
+    border-radius: 1%;
+    border: 8px #ffffff;
+    border-style: ridge;
+}
+
+#Title{
+    color: white;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+#tableBet{
+    color: white;
+    font-size: 30px;
+}
+
+#rules{
+    color: white;
+    margin-top: 50px;
+}
+
+#dice{
+    margin-top: 30px;
+}
+
+#scoreCard{
+    color: white;
+    font-size: 50px;
+}
+
+#score{
+    color: white;
+    font-size: 40px;
+}
+
+#roll{
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #bc4749;
+}
+
+#reset{
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #bc4749;
+}
+
+#wins{
+    color: white;
+}
+
+#losses{
+    color: white;
+}
+
+#placeYourBets{
+    color: white;
+}
+
+#bet{
+    width: 80px;
+    height:50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #bc4749;
+}
+
+#clearBet{
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #bc4749;
+}
+
+#money{
+    color: white;
+}
